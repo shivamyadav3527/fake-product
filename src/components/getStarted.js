@@ -32,8 +32,8 @@ const GetStarted = ({ contract, account }) => {
   console.log(account);
 
   const checkAccount = () => {
-    setShow(account === process.env.REACT_APP_WALLET_ADD);
-    console.log("account === process.env.REACT_APP_WALLET_ADD",account === process.env.REACT_APP_WALLET_ADD);
+    setShow(true);
+    console.log("account === process.env.REACT_APP_WALLET_ADD",account === 0x494cB6201c601943b9A35dB058c783061Dc89e2f);
   };
 
   useEffect(() => {
