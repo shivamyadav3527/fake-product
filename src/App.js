@@ -19,7 +19,9 @@ import Distributors from "./components/Distributors";
 import Authenticate from "./components/Authenticate";
 import GetStarted from "./components/getStarted";
 
-const CONTRACT_ADDRESS = "0x8BdEC4b0c11456B332fe5d7aB6b809bFbE31585C";
+const CONTRACT_ADDRESS = "0x32e32ef941a832f9119f9657cBCb1bD7bd1a50Ff"
+//"0x6B1690E3211840a21606D007E66d7ECB7dfCF9D2" "0x32e32ef941a832f9119f9657cBCb1bD7bd1a50Ff"
+
 
 library.add(fas);
 
