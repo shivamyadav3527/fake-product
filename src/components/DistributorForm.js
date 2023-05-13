@@ -58,7 +58,7 @@ const DistributorForm = ({ contract, account }) => {
         setMessage("Register");
         setIsOpen(true);
       } catch (e) {
-        setMessage("Distributor Already Exits");
+        setMessage("Distributor Already Exists");
         console.log(e);
       }
     }
