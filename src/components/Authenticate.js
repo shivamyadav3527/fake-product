@@ -13,7 +13,7 @@ const Authenticate = ({ account }) => {
       if (!auth) {
         setMessage("Product is not Authenticated ❌");
       }
-    }, 20000);
+    }, 15000);
 
     return () => clearTimeout(timer);
   }, [auth]);
@@ -27,6 +27,7 @@ const Authenticate = ({ account }) => {
             "..." +
             account.substring(account.length - 4, account.length)}
         </h4>
+   
         <br />
         <h1 style={{ position: "absolute", top: 15, color:`#ff00ff` }}>
           Hold QR Code Steady and Clear to Scan!!
@@ -82,8 +83,12 @@ const Authenticate = ({ account }) => {
             <h1>{message}</h1>
           </div>
         </div>
+
         <div style={{ position: "absolute", bottom: 90 }}>
-  
+        <h1>
+            Please Wait For 10 Sec If Authentication Messages Is Not Appearing
+            On The Screen Then Your Product Is Not Authenticated.
+          </h1>
           <br />
           <h2 style={{color:`#8b0000`}}><span><i>*******Please Reload The Page To Scan Again*********</i></span></h2>
         </div>
