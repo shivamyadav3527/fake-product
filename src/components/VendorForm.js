@@ -86,9 +86,9 @@ const ReactTable = React.memo((props) => {
   );
   const initialData = [
     {
-      item: "Vaccine",
-      description: "Medicine",
-      cost: 1,
+      item: "Enter Item Name",
+      description: "Add Description",
+      cost: 100,
       quantity: 2,
     },
   ];
@@ -341,7 +341,7 @@ const ReactTable = React.memo((props) => {
                           
                           // data: `{"personalizations":[{"to":[{"email":"${distributor[2]}"}],"subject":"Dispatch Item"}],"from":{"email":"rp589006@gmail.com"},"content":[{"type":"text/plain","value":"${body}"}]}`,
                           data: {
-                            senderId: "mufaddalshakir55@gmail.com",
+                            senderId: "shivamyadav3527@gmail.com",
                             to: distributor[2],
                             subject: "Dispatch Item",
                             body: body,

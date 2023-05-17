@@ -10,14 +10,14 @@ const Greetings = () => {
     <MainBar pageTitle="Welcome to manufacturer dashboard">
       {/* <h1 className="mfr-greetings"></h1> */}
       <h1 className="secondary-txt">
-        Navigate to profile to view all your registered details
-      </h1>
-      <h1 className="secondary-txt">
         Navigate to Track Products to track status of all of your products added
         to our system
       </h1>
       <h1 className="secondary-txt">
         Navigate to Add Products to publish a new product to our system
+      </h1>
+      <h1 className="secondary-txt">
+        Navigate to Distributors to see the number of distributors.
       </h1>
     </MainBar>
     // </div>

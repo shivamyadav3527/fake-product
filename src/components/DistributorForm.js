@@ -73,8 +73,8 @@ const DistributorForm = ({ contract, account }) => {
         style={customStyle}
       >
         <div style={{ textAlign: "center", marginTop: 40 }}>
-          <h2>Your have successfully Registerated.. 🚀</h2>
-          <p>You will get a mail if vendor assigns you a dispatch order</p>
+          <h1>Your have successfully Registerated.. 🚀</h1>
+    
           <br />
           <a href="/">Proceed to the Home Page</a>
         </div>
@@ -99,12 +99,12 @@ const DistributorForm = ({ contract, account }) => {
           style={{ cursor: "pointer", marginTop: 20 }}
           onClick={() => navigate(-1)}
         />
-        <h4 style={{ color: "#000", position: "fixed", right: 8, top: 2 }}>
+        <h3 style={{ color: "#000", position: "fixed", right: 8, top: 2 }}>
           Wallet Address:
           {account.substring(0, 4) +
             "..." +
             account.substring(account.length - 4, account.length)}
-        </h4>
+        </h3>
         <br />
         <br />
       </div>
